@@ -47,17 +47,10 @@ function App() {
     <>
     <header className="header">
         <div className="container">
-            <ul className="social-icons pt-3">
-                <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-facebook" aria-hidden="true"></i></a></li>
-                <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-twitter" aria-hidden="true"></i></a></li>
-                <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-google" aria-hidden="true"></i></a></li>
-                <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-instagram" aria-hidden="true"></i></a></li>
-                <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-github" aria-hidden="true"></i></a></li>
-            </ul>  
             <div className="header-content">
                 <h4 className="header-subtitle" >Hello, I am</h4>
                 <h1 className="header-title">Martin Hernandez</h1>
-                <h6 className="header-mono" >Full Stack | Front-end Developer</h6>
+                <h6 className="header-mono" >Full Stack Developer</h6>
                 <a className="btn btn-primary btn-rounded" href={Resume}><i className="ti-printer pr-2"></i>Print Resume</a>
             </div>
         </div>
@@ -105,7 +98,7 @@ function App() {
             <div className="col-lg-4 about-card">
                 <h3 className="font-weight-light">Who am I ?</h3>
                 <span className="line mb-5"></span>
-                <h5 className="mb-3">Front-end | Full Stack Developer</h5>
+                <h5 className="mb-3">Full Stack Developer</h5>
                 <p className="mt-20">Proactive and reliable full-stack engineer with a broad web application development skill set. Has been working on various products and clients, from solving enterprise grade problems to launching new applications for startups.
                     Involves leading technical teams by creating an accessible development environment, fixing technical debts, enforcing best practices in teams, and mentoring developers.</p>
                 <a className="btn btn-outline-danger" href={Resume} download={true}><i className="icon-down-circled2 "></i>Download My CV</a>
@@ -119,14 +112,7 @@ function App() {
                     <li><span>Phone</span> : + (49) 5341 8139 706</li>
                     <li><span>Skype</span> : Martin Hernandez </li>
                     <li><span>Address</span> :  25 Braunschweig, Lower Saxony Germany.</li>
-                </ul>
-                <ul className="social-icons pt-3">
-                    <li className="social-item"><a className="social-link" href="#"><i className="ti-facebook" aria-hidden="true"></i></a></li>
-                    <li className="social-item"><a className="social-link" href="#"><i className="ti-twitter" aria-hidden="true"></i></a></li>
-                    <li className="social-item"><a className="social-link" href="#"><i className="ti-google" aria-hidden="true"></i></a></li>
-                    <li className="social-item"><a className="social-link" href="#"><i className="ti-instagram" aria-hidden="true"></i></a></li>
-                    <li className="social-item"><a className="social-link" href="#"><i className="ti-github" aria-hidden="true"></i></a></li>
-                </ul>  
+                </ul> 
             </div>
             <div className="col-lg-4 about-card">
                 <h3 className="font-weight-light">My Expertise</h3>
@@ -148,7 +134,7 @@ function App() {
                 <div className="row">
                     <div className="col-1 text-danger pt-1"><i className="ti-stats-up icon-lg"></i></div>
                     <div className="col-10 ml-auto mr-3">
-                        <h6>Project Management Software</h6>
+                        <h6>Project Management</h6>
                         <p className="subtitle">Clear Plan</p>
                     </div>
                 </div>
@@ -210,14 +196,6 @@ function App() {
                             </div>
                         </div>
                         <div className="card-body pb-2">
-                           <h6>HTML5 &amp; CSS3</h6>
-                            <div className="progress mb-3">
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "97%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <h6>JAVASCRIPT + ES6</h6>
-                            <div className="progress mb-3">
-                                <div className="progress-bar bg-danger" role="progressbar" style={{width: "88%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
                             <h6>RESPONSIVE DESIGN</h6>
                             <div className="progress mb-3">
                                 <div className="progress-bar bg-danger" role="progressbar" style={{width: "85%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -287,7 +265,7 @@ function App() {
                             <div className="m-auto"><i className="ti-layers-alt icon-xl"></i></div>
                         </div>
                         <div className="col-7 text-left py-3">
-                            <h1 className="text-danger font-weight-bold font40">500</h1>
+                            <h1 className="text-danger font-weight-bold font40">150</h1>
                             <p className="text-light mb-1">Project Finished</p>
                         </div>
                     </div>
@@ -298,7 +276,7 @@ function App() {
                             <div className="m-auto"><i className="ti-face-smile icon-xl"></i></div>
                         </div>
                         <div className="col-7 text-left py-3">
-                            <h1 className="text-danger font-weight-bold font40">450</h1>
+                            <h1 className="text-danger font-weight-bold font40">120</h1>
                             <p className="text-light mb-1">Happy Clients</p>
                         </div>
                     </div>
@@ -323,7 +301,7 @@ function App() {
             <h2 className="mb-5 pb-4"><span className="text-danger">My</span> Services</h2>
             <div className="row">
                 <div className="col-md-4 col-sm-6">
-                    <div className="card mb-5">
+                    <div className="card mb-5" style={{minHeight: "100%"}}>
                        <div className="card-header has-icon">
                             <i className="ti-vector text-danger" aria-hidden="true"></i>
                         </div>
@@ -334,7 +312,7 @@ function App() {
                     </div>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                    <div className="card mb-5">
+                    <div className="card mb-5" style={{minHeight: "100%"}}>
                        <div className="card-header has-icon">
                             <i className="ti-write text-danger" aria-hidden="true"></i>
                         </div>
@@ -345,7 +323,7 @@ function App() {
                     </div>
                 </div>
                 <div className="col-md-4 col-sm-6">
-                    <div className="card mb-5">
+                    <div className="card mb-5" style={{minHeight: "100%"}}>
                        <div className="card-header has-icon">
                             <i className="ti-package text-danger" aria-hidden="true"></i>
                         </div>
@@ -561,17 +539,6 @@ function App() {
 
     <div className="section contact" id="contact">
         <div id="map" className="map">
-        <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
-        defaultCenter={defaultProps.center}
-        defaultZoom={defaultProps.zoom}
-      >
-        <AnyReactComponent
-          lat={59.955413}
-          lng={30.337844}
-          text=""
-        />
-      </GoogleMapReact>
         </div>
         <div className="container">
             <div className="row">
@@ -621,13 +588,6 @@ function App() {
                                 <h6 className="d-inline">Email : <span className="text-muted">martin111dev@outlook.com</span></h6>
                             </div>
                         </div>
-                        <ul className="social-icons pt-4">
-                            <li className="social-item"><a className="social-link text-dark" href="#"><i className="ti-facebook" aria-hidden="true"></i></a></li>
-                            <li className="social-item"><a className="social-link text-dark" href="#"><i className="ti-twitter" aria-hidden="true"></i></a></li>
-                            <li className="social-item"><a className="social-link text-dark" href="#"><i className="ti-google" aria-hidden="true"></i></a></li>
-                            <li className="social-item"><a className="social-link text-dark" href="#"><i className="ti-instagram" aria-hidden="true"></i></a></li>
-                            <li className="social-item"><a className="social-link text-dark" href="#"><i className="ti-github" aria-hidden="true"></i></a></li>
-                        </ul> 
                     </div>
                 </div>
             </div>
